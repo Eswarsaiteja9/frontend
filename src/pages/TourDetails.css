@@ -1,0 +1,72 @@
+
+
+.tour__content img{
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+.tour__info,.tour__reviews{
+    border-radius: 0.5rem;
+    border: 1px solid rgb(242, 233, 233);
+    padding: 2rem;
+}
+.tour__info span{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    font-size: 1rem;
+    color: rgb(90, 35, 208);
+
+}
+.tour__info .tour__rating{
+    color:rgb(244, 180, 18);
+}
+
+.rating__group span{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.review__input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.review__input input{
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+}
+.review__input input:focus{
+    outline: none;
+}
+
+.review__item{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 2rem;
+}
+.review__item img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.user__reviews{
+    margin-top: 2.5rem;
+}
+.tour__extra__details{
+    display: flex;
+}
+.tour__extra__details span {
+    padding-right: 20px;
+}
+.rating__group span i:active{
+    color:gold;
+    cursor: pointer;
+}

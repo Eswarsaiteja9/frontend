@@ -1,0 +1,30 @@
+.search__bar{
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    box-shadow: rgba(17,12,46,0.15) 0px 48px 100px 0px;
+    width: max-content;
+    margin-top: 5opx;
+}
+.form__group span{
+    font-size: 2rem;
+    color:rgb(90, 35, 208);
+}
+.form__group input{
+    border:none;
+    font-size: 1rem;
+    color:black;
+}
+.form__group input:focus{
+   outline: none;
+}
+.form__group-fast{
+    border-right: 1px solid rgb(90, 35, 208);
+}
+.search__icon{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background: rgb(90, 35, 208);
+    color:#fff;
+    border-radius: 10px 5px;
+    cursor: pointer;
+}

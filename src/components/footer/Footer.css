@@ -1,0 +1,26 @@
+.footer{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.footer .logo img{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+.social__links span a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.footer__link{
+   margin-bottom: 1rem; 
+}
+.footer__redirect li a{
+    text-decoration: none;
+    font-size: 1.1rem;  
+}
+.footer__redirect li a:hover{
+    color: rgb(230, 43, 74);
+}
+.footer__redirect h6 span i{
+    color:rgb(90, 35, 208);
+    font-size: 1.1rem;
+}
